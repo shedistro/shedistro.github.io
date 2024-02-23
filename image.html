@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="buton.css">
+    <title>O pula</title>
+</head>
+<body>
+    <h1>Un buton care are o pula :D</h1>
+    <p>Apasa pe acest buton si o sa vezi o pula</p>
+    <button onclick="showImage(event);" id="buton">Apasa aici!</button>
+    <img id="pula" />
+    <script>
+        butonPula = document.getElementById("buton");
+        img = document.getElementById("pula");
+
+        function showImage(event){
+            if(event.target == butonPula){
+                img.src = "pula.png"
+            }
+        }
+    </script>
+</body>
+</html>

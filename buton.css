@@ -1,0 +1,23 @@
+h1{
+    font-family: Courier;
+    text-align: center;
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 50px;
+}
+
+#buton{
+    color:red;
+    background-color: white;
+    border: 5px solid;
+    border-radius: 10px;
+    border-spacing: 3px;
+    font-size: 25px;
+}
+
+#buton:hover{
+    background-color: red;
+    color: white;
+}
